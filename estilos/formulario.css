@@ -1,0 +1,51 @@
+.formulario{
+    background-color: #eceee8;
+    padding: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tituloformulario{
+    color: #004290;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 0 15px 0;
+    font-size: 40px;
+}
+
+input, textarea, select{
+    width: 100%;
+
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+}
+
+#btn-lg{
+    background-color: #117DD5;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.btn-lg:hover{
+    cursor: pointer;
+    background-color: #01D7D9;
+    color: white;
+
+}

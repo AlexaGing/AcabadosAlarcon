@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Montserrat:wght@600&family=Nunito:wght@200&display=swap');
+
+.navbar {
+    background-color: #004290;
+}
+
+.menu img{
+    display: flex;
+justify-content: space-between;
+width: 80px;
+    padding: 1.5rem 0;
+    border-radius: 40%;
+}
+
+
+.navbar-nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+
+}
+
+.navbar-nav {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-nav>li:hover  {
+    background-color: #418ce7;
+    color: white;
+    transition: all 0.4s linear;
+    border-radius: 10px;
+}
+
+
+#carouselExampleFade {
+    margin-bottom: 30px;
+
+}
+
+body{
+    background-color: #eceee8;
+
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #004290;
+    margin: 20px;
+
+}
+
+h5 {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+
+
+#somos {
+    background-image: url(../imagenes/fondo-bloque.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin-bottom: 40px;
+
+}
+.b-g image{
+    opacity: 0.5;
+}
+
+
+hr{
+   
+    color: #004290;
+    
+}
+
+/*estilos de quienes somos*/
+
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color:#004290;
+}
+
+
+
+/*estilos de servicios*/
+
+.parrafo-section1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: black;
+   text-align: start;
+}
+
+
+p{
+font-family: 'Nunito', sans-serif;
+font-size: 20px;
+}
+
+/*estilos del footer*/
+
+.bd-footer {
+    margin: 0;
+
+}
+
+.parrafo-footer{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+  
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color:#004290;
+}
+
+
+
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color:white;
+    margin-top: 3rem;
+}
+
+a{
+    color: white;
+}
+
+.copy{
+    background-color: rgb(29, 28, 28);
+    text-align: center;
+    padding: 10px;
+}
+
+
+.redes-footer{
+    text-align: center;
+    justify-content: space-around;
+    margin: 50px 50px 20px 50px;
+}
